@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 1260px;
+  margin: 0 auto;
+  /* padding: 0 20px; */
+}
+
+
+.ck-content h1 {
+    font-size: 2em; /* hoặc kích thước mong muốn */
+}
+
+.ck-content h2 {
+    font-size: 1.5em; /* hoặc kích thước mong muốn */
+}
+
+.ck-content h3 {
+    font-size: 1.2em; /* hoặc kích thước mong muốn */
+}
